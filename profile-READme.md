@@ -1,3 +1,17 @@
+# 📝 Instructions for Using This README Template 📝
+
+Hello there! 👋 This is a GitHub README template designed to help you create an engaging and informative Github profile READme.md . This is for the most part a clone of my Github Profile Readme.md as I wanted to make it as easy as possible to just replace my info with your info and delete what you do not want.  I am proud of the automation aspect, and its very imformative to work though this process as it teaches you about Github Workflows, Actions, Secrets, and more. Below are some instructions to guide you through the customization process:
+
+1. **Fork or Download**: Fork this repository to your GitHub account or download the `README.md` file.
+2. **Edit**: Open the `README.md` file in your favorite text editor or IDE. Replace the placeholder text (e.g., `[Your Name]`, `[Your Location]`, etc.) with your own information.
+3. **Add to GitHub**: If you haven't already (if you have a github account the profile READme.md is created for you - this step is just here just in case), create a new repository named exactly as your GitHub username. Then, upload this customized `README.md` file to that repository.  
+4. **Activate**: Make sure to set the repository to "Public" and check the box that says "Add a README file" when you're creating the repository. GitHub will automatically use this `README.md` as your profile README.
+5. **Personal Touch**: Feel free to add, remove, or modify any sections to better align with your personality and career goals.  If anyone comes up with other useful or fun things to add to the auotmation workflows please reachout and lets build this section out more.  
+
+🔗 **Connect with Me**: If you find this template useful, consider giving it a ⭐️ and follow me on GitHub. I'm always working on exciting projects and sharing valuable insights. 🚀
+
+---
+
 # Hi 👋, I'm [Your Name]
 
 ### 🎖️ A Military Veteran and passionate Software Developer & DevOps Practitioner, Automation Specialist, and Statistical Analyst & Consultant, from [Your Location].
@@ -49,6 +63,8 @@ The GitHub Action is configured to use a specific runner environment, install ne
 Jokes are fetched from [JokeAPI](https://jokeapi.dev/).
 
 Suggestions are fetched from [BoredAPI](https://www.boredapi.com/).
+
+Pipeline orgianlly implemented by https://github.com/tsmith4014
 
 ---
 
