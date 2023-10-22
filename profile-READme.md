@@ -1,6 +1,8 @@
 # 📝 Instructions for Using This README Template 📝
 
-Hello there! 👋 This is a GitHub README template designed to help you create an engaging and informative Github profile READme.md . This is for the most part a clone of my Github Profile Readme.md as I wanted to make it as easy as possible to just replace my info with your info and delete what you do not want.  I am proud of the automation aspect, and its very imformative to work though this process as it teaches you about Github Workflows, Actions, Secrets, and more. Below are some instructions to guide you through the customization process:
+Hello there! 👋 This is a GitHub README template designed to help you create an engaging and informative Github profile READme.md. This is for the most part a clone of my Github Profile Readme.md as I wanted to make it as easy as possible to just replace my info with your info and delete what you do not want.  I am proud of the automation aspect, and its very imformative to work though this process as it teaches you about Github Workflows, Actions, Secrets, and more. Its important to note the formatting of the DevOps Practices in Action section, specificly the joke section is senstive to whitespace and page breaks, if you find when your workflows trigger that the joke of the day gets concated instead of replaced its likely formatting issues.  Just delete the extra joke, check for white space and manually run the workflow and it should fix itself.
+
+Below are some instructions to guide you through the customization process:
 
 1. **Fork or Download**: Fork this repository to your GitHub account or download the `README.md` file.
 2. **Edit**: Open the `README.md` file in your favorite text editor or IDE. Replace the placeholder text (e.g., `[Your Name]`, `[Your Location]`, etc.) with your own information.
