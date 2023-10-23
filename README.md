@@ -52,7 +52,7 @@ Choose the option that best suits your workflow. If you're new to Git and GitHub
 
 ---
 
-#### Generate a new Personal Access Token (PAT)
+## Generate a new Personal Access Token (PAT)
 
 1. Go to your GitHub settings.
 2. Navigate to `Developer settings` -> `Personal access tokens`.
@@ -64,7 +64,7 @@ Choose the option that best suits your workflow. If you're new to Git and GitHub
 
 ---
 
-### Set Up GitHub Secrets for This Repository
+## Set Up GitHub Secrets for This Repository
 
 #### Navigate to this GitHub repository on the web
 1. Open the `GitHub-Profile-Power-Up-Guide` repository where you want to set up the secret.
