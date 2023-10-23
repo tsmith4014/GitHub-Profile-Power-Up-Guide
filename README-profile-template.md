@@ -8,7 +8,13 @@ Below are some extra instructions to guide you through the customization process
 
 **Personal Touch**: Feel free to add, remove, or modify any sections to better align with your personality and career goals.  If anyone comes up with other useful or fun things to add to the auotmation workflows please reachout and lets build this section out more.  
 
-🔗 **Connect with Me**: If you find this template useful, consider giving it a ⭐️ and follow me on GitHub. I'm always working on exciting projects and sharing valuable insights. chjthomps@gmail.com https://www.linkedin.com/in/chad-thompson-smith-940b45b8🚀
+🔗 **Connect with Me**: If you find this template useful, consider giving it a ⭐️ and follow me on GitHub. I'm always working on exciting projects and sharing valuable insights. 🚀🚀🚀
+
+[![Email](https://img.icons8.com/fluent/48/000000/email.png)](mailto:your-email@example.com)
+chjthomps@gmail.com 
+ 
+ [![LinkedIn](https://img.icons8.com/fluent/48/000000/linkedin.png)](https://www.linkedin.com/in/your-profile/)
+ https://www.linkedin.com/in/chad-thompson-smith/
 
 REMEMBER to delete everything from here up (including the --- line break directly underneath this sentence) and FILL-IN and delete the placeholder data below with your personal info.
 ---
