@@ -9,10 +9,9 @@
 2. [Getting Started](#getting-started)
 3. [Generate GitHub Personal Access Token](#generate-github-personal-access-token)
 4. [Set Up GitHub Secrets](#set-up-github-secrets)
-5. [Configure the Python Scripts](#configure-the-python-scripts)
-6. [Activate GitHub Actions](#activate-github-actions)
-7. [Customize Your Profile](#customize-your-profile)
-8. [Troubleshooting](#troubleshooting)
+5. [Activate GitHub Actions](#activate-github-actions)
+6. [Customize Your Profile](#customize-your-profile)
+
 
 ## Prerequisites
 
@@ -51,9 +50,10 @@ You have two options for getting the code onto your machine:
 
 Choose the option that best suits your workflow. If you're new to Git and GitHub, options 1 or 2 are recommended.
 
-### Set Up GitHub Secrets for This Repository
+---
 
 #### Generate a new Personal Access Token (PAT)
+
 1. Go to your GitHub settings.
 2. Navigate to `Developer settings` -> `Personal access tokens`.
 3. Generate a new token and select the following scopes and permissions for this repository:
@@ -61,6 +61,10 @@ Choose the option that best suits your workflow. If you're new to Git and GitHub
     - `user`
     - `workflow`
 4. Copy the generated PAT; you'll need it for the next step. This secret will be used in the GitHub Actions workflow and will be accessible in your Python scripts as an environment variable.
+
+---
+
+### Set Up GitHub Secrets for This Repository
 
 #### Navigate to this GitHub repository on the web
 1. Open the `GitHub-Profile-Power-Up-Guide` repository where you want to set up the secret.
@@ -78,6 +82,7 @@ Choose the option that best suits your workflow. If you're new to Git and GitHub
 1. Name the secret `MY_SECRET_KEY`.
 2. Paste the PAT you generated earlier as the value for `MY_SECRET_KEY`.
 
+---
 
 ### Install Dependencies
 
@@ -105,39 +110,7 @@ git add .
 git commit -m "Your commit message"
 git push origin main
 ```
-
-### Activate GitHub Actions
-
-1. Navigate to your GitHub repository on the web.
-2. Go to `Actions` > `New workflow` and set up the workflow using the `.yml` files in the `.github/workflows` directory.
-
-Your GitHub profile README should now automatically update based on the schedule set in the GitHub Actions workflow.
-
-## Generate GitHub Personal Access Token
-
-1. Go to your GitHub settings.
-2. Navigate to `Developer settings` -> `Personal access tokens`.
-3. Generate a new token with `repo` and `workflow` permissions.
-4. Copy the generated token as you'll need it in the next step.
-
-## Set Up GitHub Secrets
-
-1. Go to your GitHub repository and click on `Settings`.
-2. Navigate to `Secrets` on the left sidebar.
-3. Click on `New repository secret`.
-4. Name the secret `MY_SECRET_KEY` and paste the GitHub Personal Access Token generated in the previous step.
-
-## Configure the Python Scripts
-
-1. Navigate to the cloned repository on your local machine.
-2. Open the Python scripts (`jokeofday.py` and `suggestionoftheday.py`) in your preferred text editor.
-3. The `my_secret_key` is automatically populated from GitHub Secrets, so no need to change it.
-
-```python
-# Automatically populated from GitHub Secrets
-my_secret_key = os.environ['MY_SECRET_KEY']
-```
-
+---
 ## Activate GitHub Actions
 
 1. Go to your GitHub repository and click on `Actions`.
