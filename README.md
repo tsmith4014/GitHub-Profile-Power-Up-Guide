@@ -51,15 +51,33 @@ You have two options for getting the code onto your machine:
 
 Choose the option that best suits your workflow. If you're new to Git and GitHub, options 1 or 2 are recommended.
 
-### Set Up GitHub Secret
+### Set Up GitHub Secrets for This Repository
 
-1. Navigate to your GitHub repository on the web.
-2. Go to `Settings` > `Secrets` > `New repository secret`.
-3. Name the secret `MY_SECRET_KEY`.
-4. Generate a new Personal Access Token (PAT) from [GitHub Developer Settings](https://github.com/settings/tokens) with the necessary scopes and permissions.
-5. Copy the generated PAT and paste it as the value for `MY_SECRET_KEY`.
+#### Generate a new Personal Access Token (PAT)
+1. Go to your GitHub settings.
+2. Navigate to `Developer settings` -> `Personal access tokens`.
+3. Generate a new token and select the following scopes and permissions for this repository:
+    - `repo`
+    - `user`
+    - `workflow`
+4. Copy the generated PAT; you'll need it for the next step. This secret will be used in the GitHub Actions workflow and will be accessible in your Python scripts as an environment variable.
 
-This secret will be used in the GitHub Actions workflow and will be accessible in your Python scripts as an environment variable.
+#### Navigate to this GitHub repository on the web
+1. Open the `GitHub-Profile-Power-Up-Guide` repository where you want to set up the secret.
+
+#### Go to Settings
+1. Click on the `Settings` tab.
+
+#### Navigate to Secrets
+1. Go to `Secrets` on the left sidebar.
+
+#### Create New Repository Secret
+1. Click on `New repository secret`.
+
+#### Name the Secret and Paste the PAT
+1. Name the secret `MY_SECRET_KEY`.
+2. Paste the PAT you generated earlier as the value for `MY_SECRET_KEY`.
+
 
 ### Install Dependencies
 
@@ -124,8 +142,10 @@ my_secret_key = os.environ['MY_SECRET_KEY']
 
 1. Go to your GitHub repository and click on `Actions`.
 2. You'll find a `.yml` file under the `.github/workflows` directory in your repository. This file is pre-configured to run the Python scripts.
-3. Click on `Run workflow` to manually trigger the GitHub Action or simply push a commit to automatically trigger it.
+3. Click on `Run workflow` to manually trigger the GitHub Action. After a moment, the workflow will start. If you wish, you can click on the running workflow to watch the steps in real-time. This is also where you can see the results of the run and where you'll want to go if the run fails. Debugging steps are included in the `.yml` file, which will print useful information within the workflow logs. While this may sound complicated, it's not difficult once you start exploring. Like AWS, GitHub allocates a generous amount of free action minutes for running your custom workflows.
+
 
 ## Customize Your Profile
 
 Feel free to customize the Python scripts to add more features or change the existing ones and and populate the various sections with your own information.
+
