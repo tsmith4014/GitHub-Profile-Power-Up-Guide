@@ -43,7 +43,7 @@ You have two options for getting the code onto your machine:
     - You won't be able to push your changes back to this repository unless you have write permissions. However, you can push it to a new repository that you create on your GitHub account.
 
     ```bash
-    git clone https://github.com/ORIGINAL_REPOSITORY_USERNAME/ORIGINAL_REPOSITORY.git
+    git clone https://github.com/tsmith4014/GitHub-Profile-Power-Up-Guide.git
     ```
 
 Choose the option that best suits your workflow. If you're new to Git and GitHub, options 1 or 2 are recommended.
