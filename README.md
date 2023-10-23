@@ -7,7 +7,7 @@
 
 1. [Prerequisites](#prerequisites)
 2. [Getting Started](#getting-started)
-3. [Generate GitHub Personal Access Token](#generate-github-personal-access-token)
+3. [Generate a new Personal Access Token (PAT)](#generate-a-new-personal-access-token-pat)
 4. [Set Up GitHub Secrets](#set-up-github-secrets)
 5. [Activate GitHub Actions](#activate-github-actions)
 6. [Customize Your Profile](#customize-your-profile)
