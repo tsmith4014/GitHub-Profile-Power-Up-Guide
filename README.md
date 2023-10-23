@@ -1,7 +1,7 @@
 # GitHub-Profile-Power-Up-Guide
 🚀🚀🚀 This repository is not just about automating jokes &amp; activities; a complete package to supercharge your GitHub profile. Handcrafted by [Chad Thompson-Smith](https://github.com/tsmith4014), this guide provides a boost to the aesthetics &amp; functionality of your profile with automated updates and clean, ready to fill-in, sectioned formatting .🚀🚀🚀.
 
-Welcome to the Dynamic GitHub Profile Setup Guide! This repository will help you set up a GitHub profile that updates automatically with jokes, activity suggestions, and more. Follow the steps below to get started.
+"Welcome to the Dynamic GitHub Profile Setup Guide! 🌌🌠 This repository will help you set up a GitHub profile that updates automatically with jokes, activity suggestions, and provides a ready-to-fill template for personal sections like 'About Me,' 'Skills & Expertise,' 'Projects,' 'Experience,' 'Tools,' 'Education,' and 'Contact Information.' 🌠🌌 Follow the steps below to get started."
 
 ## Table of Contents
 
@@ -17,8 +17,11 @@ Welcome to the Dynamic GitHub Profile Setup Guide! This repository will help you
 ## Prerequisites
 
 - GitHub account
-- Python 3.x installed
-- Basic knowledge of Python and GitHub Actions
+- Basic knowledge of GitHub Actions
+
+Optional:
+- Python 3.x installed (only needed if you plan to clone and run the repository locally)
+- Basic knowledge of Python (only needed if you plan to clone and run the repository locally)
 
 ## Getting Started
 
@@ -125,4 +128,4 @@ my_secret_key = os.environ['MY_SECRET_KEY']
 
 ## Customize Your Profile
 
-Feel free to customize the Python scripts to add more features or change the existing ones.
+Feel free to customize the Python scripts to add more features or change the existing ones and and populate the various sections with your own information.
