@@ -1,22 +1,36 @@
 # 📝 Instructions for Using This README Template 📝
 
-Hello there! 👋 This is a GitHub Profile README template designed to help you create an engaging and informative Github profile READme.md. This is for the most part a clone of my Github Profile Readme.md as I wanted to make it as easy as possible to just replace my info with your info and delete what you do not want.  I am proud of the automation aspect, and its very imformative to work though this process as it teaches you about Github Workflows, Actions, Secrets, and more. Its important to note the formatting of the DevOps Practices in Action section, specificly the joke section is senstive to whitespace and page breaks, if you find when your workflows trigger that the joke of the day gets concated instead of replaced its likely formatting issues.  Just delete the extra joke, check for white space and manually run the workflow and it should fix itself.  Please reach out to me if you get frustrated, we can get it working together.
+Hello there! 👋 This is a GitHub Profile README template designed to help you create an engaging and informative GitHub profile `README.md`. This template is a clone of my GitHub Profile `README.md`, and it's designed to make it easy for you to replace my information with yours. 
 
-Below are some extra instructions to guide you through the customization process but refer to the main readme.md for detailed instructions:
+I'm particularly proud of the automation features in this template. Working through the setup process will give you hands-on experience with GitHub Workflows, Actions, Secrets, and more. 
 
-**copy-paste** There are many ways you can go about getting this template into your github profile readme.me, the easiest way may just be to copy and paste.
+> 🚨 **Note**: The "DevOps Practices in Action" section, specifically the joke section, is sensitive to whitespace and page breaks. If you find that the "Joke of the Day" gets concatenated instead of replaced, it's likely due to formatting issues. Just delete the extra joke, check for whitespace, and manually run the workflow to fix it.
 
-**Personal Touch**: Feel free to add, remove, or modify any sections to better align with your personality and career goals.  If anyone comes up with other useful or fun things to add to the auotmation workflows please reachout and lets build this section out more.  
+## Getting Started
 
-🔗 **Connect with Me**: If you find this template useful, consider giving it a ⭐️ and follow me on GitHub. I'm always working on exciting projects and sharing valuable insights. 🚀🚀🚀
+For detailed instructions on how to set up and customize this template, please refer to the [Install-Setup-Instructions.md](https://github.com/vega4014/vega4014/blob/main/Install-Setup-Instructions.md).
+
+### Quick Overview
+
+1. **Fork and Rename**: The easiest way to get started is to fork this repository and rename it to your GitHub username during the forking process but your current profile. However, your current README.md will need to be renamed or deleted prior to taking this step.
+2. **Copy-Paste**: Alternatively, you can copy and paste this template into your GitHub profile `README.md` and skip the forking and renaming process.
+3. **Personal Touch**: Feel free to add, remove, or modify any sections to better align with your personality and career goals.
+4. **Contribute**: If you come up with other useful or fun things to add to the automation workflows, please reach out. Let's build this section out more!
+
+## Connect with Me
+
+If you find this template useful, consider giving it a ⭐️ and follow me on GitHub. I'm always working on exciting projects and sharing valuable insights.
 
 [![Email](https://img.icons8.com/fluent/48/000000/email.png)](mailto:your-email@example.com)
 chjthomps@gmail.com 
- 
- [![LinkedIn](https://img.icons8.com/fluent/48/000000/linkedin.png)](https://www.linkedin.com/in/your-profile/)
- https://www.linkedin.com/in/chad-thompson-smith/
 
-REMEMBER to delete everything from here up (including the --- line break directly underneath this sentence) and FILL-IN and delete the placeholder data below with your personal info.
+[![LinkedIn](https://img.icons8.com/fluent/48/000000/linkedin.png)](https://www.linkedin.com/in/your-profile/)
+https://www.linkedin.com/in/chad-thompson-smith/
+
+---
+
+**REMEMBER**: Delete everything from here up (including this line) and replace the placeholder data below with your personal info.
+
 ---
 
 # Hi 👋, I'm [Your Name]
