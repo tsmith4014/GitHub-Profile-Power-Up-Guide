@@ -1,7 +1,7 @@
 # GitHub-Profile-Power-Up-Guide
 🚀🚀🚀 This repository is not just about automating jokes &amp; activities; a complete package to supercharge your GitHub profile. Handcrafted by [Chad Thompson-Smith](https://github.com/tsmith4014), this guide provides a boost to the aesthetics &amp; functionality of your profile with automated updates and clean, ready to fill-in, sectioned formatting .🚀🚀🚀.
 
-"Welcome to the Dynamic GitHub Profile Setup Guide! 🌌🌠 This repository will help you set up a GitHub profile that updates automatically with jokes, activity suggestions, and provides a ready-to-fill template for personal sections like 'About Me,' 'Skills & Expertise,' 'Projects,' 'Experience,' 'Tools,' 'Education,' and 'Contact Information.' 🌠🌌 Follow the steps below to get started."
+🌌🌠 This repository will help you set up a GitHub profile that updates automatically with jokes, activity suggestions, and provides a ready-to-fill template for personal sections like 'About Me,' 'Skills & Expertise,' 'Projects,' 'Experience,' 'Tools,' 'Education,' and 'Contact Information.' 🌠🌌 Follow the steps below to get started."
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
