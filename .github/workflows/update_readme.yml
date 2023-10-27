@@ -10,23 +10,24 @@ jobs:
     runs-on: ubuntu-latest
     env:
       MY_SECRET_KEY: ${{ secrets.MY_SECRET_KEY }} #This is the secret key you create by going to > main settings (not the repo settings) > Dev Settings > Personal Access Tokens > Tokens (classic) > copy the key > Actions > Secrets > New Repo Secret > paste secret.
-      - name: Check out code
-        uses: actions/checkout@v2
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: "3.x"
-      - name: Debugging step (List directory)
-        run: ls -al
-      - name: Debugging step (Check secret length)
-        run: echo "Length of MY_SECRET_KEY is ${#MY_SECRET_KEY}"
-      - name: Debugging step (Check Python version)
-        run: python --version
-      - name: Debugging step (Check environment variables)
-        run: env
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-      - name: Run Python script
-        run: python ./jokeofday.py
-      - name: Run AI Suggestion of the Day Python script
+      steps:
+        - name: Check out code
+          uses: actions/checkout@v2
+        - name: Set up Python
+          uses: actions/setup-python@v2
+          with:
+            python-version: "3.x"
+        - name: Debugging step (List directory)
+          run: ls -al
+        - name: Debugging step (Check secret length)
+          run: echo "Length of MY_SECRET_KEY is ${#MY_SECRET_KEY}"
+        - name: Debugging step (Check Python version)
+          run: python --version
+        - name: Debugging step (Check environment variables)
+          run: env
+        - name: Install dependencies
+          run: pip install -r requirements.txt
+        - name: Run Python script
+          run: python ./jokeofday.py
+        - name: Run AI Suggestion of the Day Python script
         run: python ./suggestionoftheday.py
