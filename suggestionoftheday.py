@@ -66,7 +66,8 @@ if __name__ == "__main__":
     suggestion = fetch_suggestion()
 
     g = Github(my_secret_key)
-    repo = g.get_repo("YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME")  # Replace with your GitHub username and repository name, in the case of a profile readme its likely the same for example mine reads: repo = g.get_repo("tsmith4014/tsmith4014")
+    repo = g.get_repo("tsmith4014/tsmith4014")
+    # repo = g.get_repo("YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME")  # Replace with your GitHub username and repository name, in the case of a profile readme its likely the same for example mine reads: repo = g.get_repo("tsmith4014/tsmith4014")
     contents = repo.get_contents("README.md")
     readme_data = base64.b64decode(contents.content).decode("utf-8")
 
